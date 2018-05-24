@@ -1,0 +1,31 @@
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe.config
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.pdb
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Form1.resources
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Properties.Resources.resources
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.GenerateResource.cache
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.CoreCompileInputs.cache
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.exe
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.pdb
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlHome.resources
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlExtrato.resources
+c:\users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlLancamento.resources
+C:\Users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csprojResolveAssemblyReference.cache
+C:\Users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaSalvo.resources
+C:\Users\joao_assisb\source\repos\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaErro.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csprojResolveAssemblyReference.cache
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaErro.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaSalvo.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Form1.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Properties.Resources.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlExtrato.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlHome.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlLancamento.resources
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.GenerateResource.cache
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.CoreCompileInputs.cache
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.exe
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.pdb
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe.config
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.pdb
+C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlSimulador.resources
