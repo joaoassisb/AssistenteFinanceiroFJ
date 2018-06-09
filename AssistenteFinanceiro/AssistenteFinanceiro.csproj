@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjudaSelic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjudaSelic.Designer.cs">
+      <DependentUpon>AjudaSelic.cs</DependentUpon>
+    </Compile>
     <Compile Include="alertaErro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="UserControlSimulador.Designer.cs">
       <DependentUpon>UserControlSimulador.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AjudaSelic.resx">
+      <DependentUpon>AjudaSelic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="alertaErro.resx">
       <DependentUpon>alertaErro.cs</DependentUpon>
     </EmbeddedResource>

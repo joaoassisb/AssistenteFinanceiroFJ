@@ -39,10 +39,10 @@
             this.button14 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSimulador = new System.Windows.Forms.Button();
+            this.userControlSimulador1 = new AssistenteFinanceiro.UserControlSimulador();
             this.userControlLancamento1 = new AssistenteFinanceiro.UserControlLancamento();
             this.userControlHome1 = new AssistenteFinanceiro.UserControlHome();
             this.userControlExtrato1 = new AssistenteFinanceiro.UserControlExtrato();
-            this.userControlSimulador1 = new AssistenteFinanceiro.UserControlSimulador();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -182,7 +182,7 @@
             this.btnSimulador.ForeColor = System.Drawing.Color.White;
             this.btnSimulador.Image = ((System.Drawing.Image)(resources.GetObject("btnSimulador.Image")));
             this.btnSimulador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSimulador.Location = new System.Drawing.Point(11, 310);
+            this.btnSimulador.Location = new System.Drawing.Point(11, 318);
             this.btnSimulador.Name = "btnSimulador";
             this.btnSimulador.Size = new System.Drawing.Size(197, 54);
             this.btnSimulador.TabIndex = 5;
@@ -190,6 +190,14 @@
             this.btnSimulador.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSimulador.UseVisualStyleBackColor = true;
             this.btnSimulador.Click += new System.EventHandler(this.btnSimulador_Click);
+            // 
+            // userControlSimulador1
+            // 
+            this.userControlSimulador1.Location = new System.Drawing.Point(214, 81);
+            this.userControlSimulador1.Name = "userControlSimulador1";
+            this.userControlSimulador1.Size = new System.Drawing.Size(586, 439);
+            this.userControlSimulador1.TabIndex = 9;
+            this.userControlSimulador1.Load += new System.EventHandler(this.userControlSimulador1_Load);
             // 
             // userControlLancamento1
             // 
@@ -211,14 +219,6 @@
             this.userControlExtrato1.Name = "userControlExtrato1";
             this.userControlExtrato1.Size = new System.Drawing.Size(551, 378);
             this.userControlExtrato1.TabIndex = 8;
-            // 
-            // userControlSimulador1
-            // 
-            this.userControlSimulador1.Location = new System.Drawing.Point(214, 81);
-            this.userControlSimulador1.Name = "userControlSimulador1";
-            this.userControlSimulador1.Size = new System.Drawing.Size(586, 439);
-            this.userControlSimulador1.TabIndex = 9;
-            this.userControlSimulador1.Load += new System.EventHandler(this.userControlSimulador1_Load);
             // 
             // Form1
             // 

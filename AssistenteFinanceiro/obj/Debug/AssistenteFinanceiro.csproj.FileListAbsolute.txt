@@ -29,3 +29,20 @@ C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bi
 C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe
 C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.pdb
 C:\Users\Fillip Pereira\Desktop\IHC\AssistenteFinanceiro\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlSimulador.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe.config
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.exe
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\bin\Debug\AssistenteFinanceiro.pdb
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csprojResolveAssemblyReference.cache
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaErro.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.alertaSalvo.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Form1.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.Properties.Resources.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlExtrato.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlHome.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlLancamento.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.UserControlSimulador.resources
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.GenerateResource.cache
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.csproj.CoreCompileInputs.cache
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.exe
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.pdb
+C:\Users\joao_assisb\Desktop\PUC\5ºPeriodo\IHC\AssistenteFinanceiroFJ\AssistenteFinanceiro\obj\Debug\AssistenteFinanceiro.AjudaSelic.resources

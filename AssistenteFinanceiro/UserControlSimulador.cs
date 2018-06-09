@@ -66,5 +66,12 @@ namespace AssistenteFinanceiro
         {
 
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            AjudaSelic ajuda = new AjudaSelic();
+            ajuda.ShowDialog();
+            return;
+        }
     }
 }
