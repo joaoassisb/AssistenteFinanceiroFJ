@@ -1,1 +1,3 @@
 24/05/2018;Renda;desc;120
+09/06/2018;Renda;Salario ;1500
+09/06/2018;Gasto;Uber;10,43

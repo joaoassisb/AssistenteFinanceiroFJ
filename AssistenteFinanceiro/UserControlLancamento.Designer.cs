@@ -120,6 +120,7 @@
             this.descricao.Name = "descricao";
             this.descricao.Size = new System.Drawing.Size(139, 20);
             this.descricao.TabIndex = 3;
+            this.descricao.TextChanged += new System.EventHandler(this.descricao_TextChanged);
             // 
             // label1
             // 

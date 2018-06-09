@@ -30,16 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlSimulador));
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.investimento = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tempo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.valor = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnSelic = new System.Windows.Forms.Button();
+            this.selic = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.valor_simulado = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,54 +54,54 @@
             this.label1.Text = "Investimento:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox1
+            // investimento
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.investimento.FormattingEnabled = true;
+            this.investimento.Items.AddRange(new object[] {
             "Poupança",
-            "CDB",
+            "CDI",
             "LCI"});
-            this.comboBox1.Location = new System.Drawing.Point(100, 81);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.investimento.Location = new System.Drawing.Point(100, 81);
+            this.investimento.Name = "investimento";
+            this.investimento.Size = new System.Drawing.Size(121, 21);
+            this.investimento.TabIndex = 1;
+            this.investimento.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(97, 156);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Tempo:";
+            this.label2.Text = "Tempo (meses):";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // tempo
             // 
-            this.textBox1.Location = new System.Drawing.Point(100, 172);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tempo.Location = new System.Drawing.Point(100, 172);
+            this.tempo.Name = "tempo";
+            this.tempo.Size = new System.Drawing.Size(121, 20);
+            this.tempo.TabIndex = 3;
+            this.tempo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(97, 203);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Valor:";
+            this.label3.Text = "Valor (R$):";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox2
+            // valor
             // 
-            this.textBox2.Location = new System.Drawing.Point(100, 219);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.valor.Location = new System.Drawing.Point(100, 219);
+            this.valor.Name = "valor";
+            this.valor.Size = new System.Drawing.Size(121, 20);
+            this.valor.TabIndex = 4;
+            this.valor.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -114,14 +115,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.valor_simulado);
             this.groupBox1.Controls.Add(this.btnSelic);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.selic);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tempo);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.valor);
+            this.groupBox1.Controls.Add(this.investimento);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(105, 12);
@@ -130,22 +132,6 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(100, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(97, 112);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Selic";
             // 
             // btnSelic
             // 
@@ -162,6 +148,32 @@
             this.btnSelic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSelic.UseVisualStyleBackColor = true;
             this.btnSelic.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // selic
+            // 
+            this.selic.Location = new System.Drawing.Point(100, 128);
+            this.selic.Name = "selic";
+            this.selic.Size = new System.Drawing.Size(121, 20);
+            this.selic.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(97, 112);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Selic (%)";
+            // 
+            // valor_simulado
+            // 
+            this.valor_simulado.AutoSize = true;
+            this.valor_simulado.Location = new System.Drawing.Point(97, 308);
+            this.valor_simulado.Name = "valor_simulado";
+            this.valor_simulado.Size = new System.Drawing.Size(13, 13);
+            this.valor_simulado.TabIndex = 12;
+            this.valor_simulado.Text = "  ";
+            this.valor_simulado.Click += new System.EventHandler(this.valor_simulado_Click);
             // 
             // UserControlSimulador
             // 
@@ -180,15 +192,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox investimento;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tempo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox valor;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox selic;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnSelic;
+        private System.Windows.Forms.Label valor_simulado;
     }
 }

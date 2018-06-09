@@ -107,5 +107,10 @@ namespace AssistenteFinanceiro
         {
 
         }
+
+        private void descricao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

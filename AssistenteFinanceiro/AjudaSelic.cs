@@ -36,5 +36,10 @@ namespace AssistenteFinanceiro
         {
             Close();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.bcb.gov.br/htms/selic/selicdiarios.asp");
+        }
     }
 }
