@@ -46,6 +46,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblLancamentos);
             this.groupBox1.Controls.Add(this.labelSaldo);
             this.groupBox1.Controls.Add(this.lblRendas);
             this.groupBox1.Controls.Add(this.lblGastos);
@@ -62,29 +63,30 @@
             // labelSaldo
             // 
             this.labelSaldo.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSaldo.Location = new System.Drawing.Point(348, 152);
+            this.labelSaldo.Location = new System.Drawing.Point(348, 153);
             this.labelSaldo.Name = "labelSaldo";
             this.labelSaldo.Size = new System.Drawing.Size(171, 24);
             this.labelSaldo.TabIndex = 24;
-            this.labelSaldo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelSaldo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelSaldo.Click += new System.EventHandler(this.labelSaldo_Click);
             // 
             // lblRendas
             // 
             this.lblRendas.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRendas.Location = new System.Drawing.Point(348, 84);
             this.lblRendas.Name = "lblRendas";
-            this.lblRendas.Size = new System.Drawing.Size(177, 24);
+            this.lblRendas.Size = new System.Drawing.Size(171, 24);
             this.lblRendas.TabIndex = 23;
-            this.lblRendas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRendas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblGastos
             // 
             this.lblGastos.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGastos.Location = new System.Drawing.Point(344, 120);
             this.lblGastos.Name = "lblGastos";
-            this.lblGastos.Size = new System.Drawing.Size(181, 24);
+            this.lblGastos.Size = new System.Drawing.Size(175, 24);
             this.lblGastos.TabIndex = 22;
-            this.lblGastos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGastos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label7
             // 
@@ -172,17 +174,16 @@
             // lblLancamentos
             // 
             this.lblLancamentos.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLancamentos.Location = new System.Drawing.Point(363, 228);
+            this.lblLancamentos.Location = new System.Drawing.Point(366, 48);
             this.lblLancamentos.Name = "lblLancamentos";
-            this.lblLancamentos.Size = new System.Drawing.Size(170, 24);
+            this.lblLancamentos.Size = new System.Drawing.Size(153, 24);
             this.lblLancamentos.TabIndex = 24;
-            this.lblLancamentos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLancamentos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // UserControlHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.lblLancamentos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

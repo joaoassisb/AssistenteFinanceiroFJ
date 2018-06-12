@@ -49,10 +49,24 @@ namespace AssistenteFinanceiro
             {
                 labelSaldo.Text = " R$" + Convert.ToString(saldo)+",00";
             }
-
             lblLancamentos.Text = assistente.calculaLancamentos().ToString();
-            lblRendas.Text = " R$"+Convert.ToString(assistente.calculaRendas());
-            lblGastos.Text = " R$"+Convert.ToString(assistente.calculaGastos());
+
+            double gastos = assistente.calculaGastos();
+            lblGastos.Text = " R$"+ string.Format("{0:#.##}", assistente.calculaGastos());
+
+            if (gastos - Math.Truncate(gastos) == 0)
+            {
+                lblGastos.Text = "R$" + Convert.ToString(gastos) + ",00";
+            }
+
+            double rendas = assistente.calculaRendas();
+            lblRendas.Text = " R$" + string.Format("{0:#.##}", assistente.calculaRendas());
+
+            if (rendas - Math.Truncate(rendas) == 0)
+            {
+                lblRendas.Text = "R$" + Convert.ToString(rendas) + ",00";
+            }
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -66,6 +80,11 @@ namespace AssistenteFinanceiro
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelSaldo_Click(object sender, EventArgs e)
         {
 
         }
